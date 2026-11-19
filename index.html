@@ -8,6 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css2?family=BBH+Bogle&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Redaction:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+<script src="https://unpkg.com/lucide@latest" defer></script>
+
 <link rel="stylesheet" href="css/style.css">
 
 
@@ -31,8 +34,8 @@
         <ul>
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#nosotros">Nosotros</a></li>
-          <li><a href="#menu">Menú</a></li>
-          <li><a href="#Informes">Informes</a></li>
+          <li><a href="#beneficios">Beneficios</a></li>
+          <li><a href="#networking">Networking</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
         <button type="button" class="btn primary" onclick="openWhatsApp('Hola, quiero hacer una reservación en SIENNA.')">
@@ -46,9 +49,70 @@
 
 </header>
 
+<!--Inicio del contenido principal de la página-->
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<main>
+
+  <!--HERO-->
+        <section id="inicio" class="container hero-section">
+    <div class="hero-content fade-in-up">
+        <p class="eyebrow">Análisis de empresas · Inversiones en bolsa · Networking</p>
+        <h1 class="hero-title">EQUITY</h1>
+        <p class="hero-subtitle">
+          Empieza a crecer tu patrimonio, invirtiendo de manera inteligente, analizando a las empresas más grandes del mundo.
+        </p>
+        <a href="#menu" class="btn btn-coffee hero-cta">
+          Descubre nuestros productos <i data-lucide="arrow-right" class="icon-sm"></i>
+        </a>
+      </div>
+
+
+      <div class="hero-media">
+        <div class="hero-backdrop" aria-hidden="true"></div>
+        <img
+          src="img/hero.jpg"
+          alt="Analistas de mercados financieros trabajando en un entorno moderno y elegante"
+          width="1600"
+          height="1104"
+          class="hero-image"
+        />
+      </div>
+    </section>
+
+
+</main>
+
+<!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#inicio" class="logo logo-light" aria-label="EQUITY, inicio">
+        
+        <span class="logo-text">EQUITY </span>
+      </a>
+
+
+      <nav class="footer-nav" aria-label="Navegación pie de página">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#networking">Networking</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+
+      <div class="social-links">
+        <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+      </div>
+    </div>
+
+
+    <p class="copyright">
+      © <span id="current-year"></span> EQUITY. Todos los derechos reservados.
+    </p>
+  </footer>
+
+
 
 </body>
 </html>
