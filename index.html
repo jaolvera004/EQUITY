@@ -163,7 +163,7 @@
 
         <article class="product-card">
           <div class="product-image-wrap">
-            <img src="img/gestion.webp" alt="Gestión de Portafolio" loading="lazy" width="816" height="816" />
+            <img src="img/modelado.jpg" alt="Modelado Financiero" loading="lazy" width="816" height="816" />
           </div>
           <div class="product-body">
             <div class="product-header">
@@ -178,7 +178,7 @@
 
         <article class="product-card">
           <div class="product-image-wrap">
-            <img src="img/gestion.webp" alt="Gestión de Portafolio" loading="lazy" width="816" height="816" />
+            <img src="img/mercados.jpg" alt="Investigación de Mercados" loading="lazy" width="816" height="816" />
           </div>
           <div class="product-body">
             <div class="product-header">
@@ -189,11 +189,11 @@
           </div>
         </article>
 
-        <!--SERVICIO 5- Educación financiera personal -->
+        <!--SERVICIO 6- Educación financiera personal -->
 
         <article class="product-card">
           <div class="product-image-wrap">
-            <img src="img/gestion.webp" alt="Gestión de Portafolio" loading="lazy" width="816" height="816" />
+            <img src="img/edufin.jpg" alt="Educación Financiera Personal" loading="lazy" width="816" height="816" />
           </div>
           <div class="product-body">
             <div class="product-header">
@@ -209,36 +209,99 @@
         <!-- Diferenciadores -->
     <section class="perks-section">
       <div class="container perks-grid">
-         <!-- Diferenciador 1 -->
+
+        <!-- Diferenciador 1 -->
         <div class="perk-item">
-          <span class="perk-icon"><i data-lucide="chef-hat"></i></span>
-          <h3>Gastronomía de Autor.</h3>
-          <p>Platillos exclusivos con ingredientes selectos y presentaciones únicas.</p>
+          <span class="perk-icon"><i data-lucide="book-open"></i></span>
+          <h3>Clases personalizadas</h3>
+          <p>No necesitas tener conocimientos previos, nosotros nos adaptamos a tu nivel y necesidades.</p>
         </div>
 
         <!-- Diferenciador 2 -->
-         <div class="perk-item">
-          <span class="perk-icon"><i data-lucide="star-minus"></i></span>
-          <h3>Elegancia en Cada Detalle.</h3>
-          <p>Un ambiente sofisticado para momentos inolvidables.</p>
+        <div class="perk-item">
+          <span class="perk-icon"><i data-lucide="chart-candlestick"></i></span>
+          <h3>Clases practicas</h3>
+          <p>No te vamos a aburrir con pura teoría, queremos que apliques lo que aprendes en situaciones reales.</p>
         </div>
 
         <!-- Diferenciador 3 -->
-         <div class="perk-item">
-          <span class="perk-icon"><i data-lucide="leaf"></i></span>
-          <h3>Frescura que se Distingue.</h3>
-          <p>ngredientes frescos y de la más alta calidad.</p>
+        <div class="perk-item">
+          <span class="perk-icon"><i data-lucide="briefcase-business"></i></span>
+          <h3>Casos corporativos reales</h3>
+          <p>Nos aliamos con empresas líderes para ofrecer casos de estudio que reflejen situaciones del mundo real y actuales.</p>
         </div>
 
         <!-- Diferenciador 4 -->
-         <div class="perk-item">
-          <span class="perk-icon"><i data-lucide="towel-rack"></i></span>
-          <h3>Servicio Personalizado.</h3>
-          <p>Atención exclusiva que hace especial cada visita.</p>
+        <div class="perk-item">
+          <span class="perk-icon"><i data-lucide="handshake"></i></span>
+          <h3>Clases con Inversores y Profesionales Expertos</h3>
+          <p>Tus profesores son expertos en el sector financiero, con muchos años de experiencia en el mercado.</p>
         </div>
+
 
       </div>
     </section>
+
+
+    <!--DIRECCIÓN Y CONTACTO-->
+<section id="contacto" class="container contact-section">
+      <div>
+        <p class="eyebrow">Contacto</p>
+        <h2 class="section-title">Estamos ubicados en</h2>
+        <p class="muted-note">Ubicación y contacto.</p>
+
+
+        <ul class="contact-list">
+          <li><i data-lucide="map-pin" class="contact-icon"></i>Paseo de la Reforma - CDMX</li>
+          <li><i data-lucide="phone" class="contact-icon"></i> (52) 55 84193752</li>
+          <li><i data-lucide="mail" class="contact-icon"></i> informes_cursos@equity.com </li>
+          <li><i data-lucide="clock" class="contact-icon"></i> Lun a Dom 8:00 - 21:00</li>
+        </ul>
+
+
+        <a
+          href="https://wa.me/5584193752"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-primary whatsapp-btn"
+        >
+          <i data-lucide="message-circle" class="icon-sm"></i> WhatsApp 
+        </a>
+        <p class="footnote">+52 5584193752.</p>
+      </div>
+      <!----Formulario de contacto -->
+
+<form id="contact-form" class="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input id="name" name="name" type="text" maxlength="100" />
+          <p id="error-name" class="error-text" aria-live="polite"></p>
+        </div>
+
+
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input id="email" name="email" type="email" maxlength="255" />
+          <p id="error-email" class="error-text" aria-live="polite"></p>
+        </div>
+
+
+        <div class="form-group">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="5" maxlength="1000"></textarea>
+          <p id="error-message" class="error-text" aria-live="polite"></p>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary btn-block">Enviar mensaje</button>
+
+
+        <p id="form-status" class="form-status" role="status" hidden>
+         ¡Gracias por contactar a EQUITY! Estamos listos para construir tu futuro.  
+        </p>
+      </form>
+
+</section>
         
 
 
