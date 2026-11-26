@@ -503,17 +503,17 @@ img {
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 2rem;
   border-radius: 1rem;
-  background-color: var(--card);
+  background-color: #272728;
   padding: 1.5rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 3px rgb(121, 122, 124);
 }
 
 
 @media (min-width: 768px) {
   .contact-form {
-    padding: 2rem;
+    padding: 3rem;
   }
 }
 
@@ -530,8 +530,8 @@ img {
 .form-group textarea {
   width: 100%;
   border-radius: 0.5rem;
-  border: 1px solid var(--border);
-  background-color: var(--card);
+  border: 1px solid var(--cream);
+  background-color: #454649;
   padding: 0.75rem 1rem;
   font-family: var(--font-sans);
   font-size: 1rem;
@@ -572,6 +572,28 @@ img {
   padding: 0.75rem;
   font-size: 0.875rem;
 }
+
+.btn-formulario{
+display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.5rem;
+  border: none;
+  border-radius: 9999px;
+  background-color: var(--coral-dark); 
+  color: var(--ink); 
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s ease;
+}
+
+.btn-formulario:hover{
+background-color: var(--cream); 
+transform: translateY(-2px); 
+box-shadow: 0 6px 16px rgb(18, 48, 169);}
 
 
 /*------ FOOTER- PIE DE PÁGINA-----*/
@@ -632,6 +654,39 @@ img {
   text-align: center;
   font-size: 0.75rem;
   opacity: 0.7;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+
+.social-links a {
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 249, 239, 0.25);
+  color: var(--cream);
+  background-color:#8ad9e9;
+  transition: background-color 0.25s ease, color 0.25s ease, transform 0.2s ease, border-color 0.25s ease;
+}
+
+
+.social-links a:hover {
+  background-color: var(--sage);
+  border-color: var(--sage);
+  color: var(--cream);
+  transform: translateY(-3px);
+}
+
+
+.social-links svg {
+  width: 1.15rem;
+  height: 1.15rem;
 }
 
 /*----DIFERENCIADORES----*/
@@ -738,3 +793,23 @@ img {
   font-size: 0.75rem;
   color: var(--ink);
 }
+
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.85rem 1.75rem;
+  border-radius: 9999px;
+  background-color: #25d366; 
+  color:var(--ink);
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 4px 14px rgba(37, 211, 102, 0.25);
+  transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s ease;
+  margin-top: 2rem;}
+
+  .whatsapp-btn:hover { 
+  background-color: #043819;  
+  transform: translateY(-2px); 
+  box-shadow: 0 6px 18px rgba(37, 211, 102, 0.35); }
